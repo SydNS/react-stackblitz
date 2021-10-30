@@ -1,10 +1,8 @@
-h1, p {
+h1,
+p {
   font-family: Lato;
 }
 
-
-<!-- This is the css file:
- (have a play with the colours and features!)-->
 ul.topnav {
   list-style-type: none;
   margin: 0;
@@ -17,7 +15,9 @@ ul.topnav {
   position: sticky;
   top: 0;
 }
-ul.topnav li {float: left;}
+ul.topnav li {
+  float: left;
+}
 ul.topnav li a {
   display: block;
   color: white;
@@ -29,20 +29,20 @@ ul.topnav li a {
   border-right: 1px solid #bbb;
 }
 ul.topnav li a:hover:not(.active) {
-	background-color: #ddd;
-    color: black;
+  background-color: #ddd;
+  color: black;
 }
 ul.topnav li a.active {
-	background-color: #4CAF50;
+  background-color: #4caf50;
 }
 ul.topnav li.right {
-	float: right;
+  float: right;
 }
 @media screen and (max-width: 720px) {
-  ul.topnav li{
-	  width: 100%;
+  ul.topnav li {
+    width: 100%;
   }
-  ul.topnav a{
-	  width: 100%;
+  ul.topnav a {
+    width: 100%;
   }
 }
